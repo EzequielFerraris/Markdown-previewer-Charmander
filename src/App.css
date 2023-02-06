@@ -23,8 +23,9 @@ textarea{
 }
 
 h1 {
+  font-family: arial,sans-serif;;
   color: #23637B;
-  font-size: 1.5rem; 
+  font-size: 2rem; 
 }
 
 .App {
@@ -66,11 +67,15 @@ h1 {
   min-height: 70vh;
   overflow-wrap: break-word;
   background-color: #E5D4BB;
-  padding: 20px;
+  padding: 60px;
   margin: 20px;
   box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
   border-radius: 6px;
   border: 2px solid #588C9F;
+}
+
+.preview-container img {
+  max-width: 100%;
 }
 
 .heading{
